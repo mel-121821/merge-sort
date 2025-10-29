@@ -10,9 +10,9 @@ Eg. 0, 1, 1, 2, 3, 5, 8, 13 are the first eight digits in the sequence.
 
 - [x] Using an example input of 8, this function should return the array [0, 1, 1, 2, 3, 5, 8, 13].
 
-- [] Now write another function `fibsRec` which solves the same problem recursively.
+- [x] Now write another function `fibsRec` which solves the same problem recursively.
 
-- [] Test both versions of your functions by passing in various lengths as arguments.
+- [x] Test both versions of your functions by passing in various lengths as arguments.
 
 ---
 
@@ -20,11 +20,11 @@ Eg. 0, 1, 1, 2, 3, 5, 8, 13 are the first eight digits in the sequence.
 
 To showcase the recursive effect implemented in your Fibonacci function, do the following:
 
-- [] Add the following to the start of the function:
+- [x] Add the following to the start of the function:
 
 `console.log("This was printed recursively");`
 
-- [] Call the function with 8 as the argument.
+- [x] Call the function with 8 as the argument.
 
 If the function is implemented correctly, you should see that sentence printed around 8 times (keep in mind that, depending on the way you implemented the function, you may see 7 instead of 8. This isn’t a bug! It simply depends on how many times the function is actually repeated).
 
