@@ -47,3 +47,56 @@ fibs(8);
 //     // arr.push(value);
 //   }
 // }
+
+// Final Recursive Version
+
+function fibsRec(num) {
+  console.log("This was printed recursively");
+  if (num == 0) {
+    return [0];
+  }
+  if (num == 1) {
+    return [0, 1];
+  } else {
+    const arr = fibsRec(num - 1);
+    arr.push(arr[num - 1] + arr[num - 2]);
+    console.log(arr);
+  }
+}
+
+fibsRec(5);
+fibsRec(8);
+
+// Resources
+// https://stackoverflow.com/questions/36415203/how-can-i-recursively-generate-an-array-of-the-fibonacci-sequence
+
+// https://stackoverflow.com/questions/8845154/how-does-the-fibonacci-recursive-function-work
+
+// Steps walkthrough: (with num value of 5)
+// 1: call with a value of 5
+// 2: Does not == 0 or 1 > skip
+// 3: Create new arr, call self with num -1
+
+// 1; Call with val of 4
+// 2: Does not == 0 or 1 > skip
+// 3: Create new arr, call selt witn num -1
+
+// 1: Call with val of 3
+// 2: Does not == 0 or 1 > skip
+// 3: Create new arr, call self with num -1
+
+// 1: Call with val of 2
+// 2: Does not == 0 or 1 > skip
+// 3: Create new arr, call self with num - 1
+
+// 1: Call with val of 1
+// 2: num == 1, return [0, 1] to prev stack
+
+// 4: arr now == [0, 1]
+// 5: spread arr and add arr[n-1] + arr[n-2] > becomes [0, 1, 1]
+
+// 4: arr now == [0, 1, 1]
+// 5: spread arr and add arr[n-1] + arr[n-2] > becomes [0, 1, 1, 2]
+
+// 4: arr now == [0, 1, 1, 2]
+// 5: spread arr and add arr[n-1] + arr[n-2] > becomes [0, 1, 1, 2, 3]
