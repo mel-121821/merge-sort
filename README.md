@@ -37,3 +37,13 @@ Run code in the terminal by using the following CLI command:
 `node <filename.js>`
 
 src: https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/command-line/node-run-cli.en.md
+
+---
+
+### Solutions:
+
+Generate a Recursive Array of Fibonacci:
+https://stackoverflow.com/questions/36415203/how-can-i-recursively-generate-an-array-of-the-fibonacci-sequence
+
+How Recursive Fibonacci Works:
+https://stackoverflow.com/questions/8845154/how-does-the-fibonacci-recursive-function-work
