@@ -24,3 +24,6 @@ It may be helpful to check out the background videos again if you don’t quite 
 ---
 
 #### Resources:
+
+Splitting an array & splice vs. slice:
+https://stackoverflow.com/questions/9181188/splice-an-array-in-half-no-matter-the-size
