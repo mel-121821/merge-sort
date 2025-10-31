@@ -4,6 +4,12 @@
 
 const arr = [3, 2, 1, 13, 8, 5, 0, 1];
 
+// Additional tests:
+const arr1 = [];
+const arr2 = [73];
+const arr3 = [1, 2, 3, 4, 5];
+const arr4 = [105, 79, 100, 110];
+
 // arr split tests
 // const midPoint = Math.floor(arr.length / 2);
 // console.log(arr);
@@ -28,21 +34,25 @@ const arr = [3, 2, 1, 13, 8, 5, 0, 1];
 // when one list becomes empty, copy all values from the remaining arr into the sorted arr
 
 function mergeSort(arr) {
-  console.log(`This function was called recursively with ${arr}`);
+  // console.log(`This function was called recursively with ${arr}`);
   if (arr.length <= 1) {
     return arr;
   }
   const midPoint = Math.floor(arr.length / 2);
-  console.log(`leftArr sliced at midpoint: ${arr.slice(0, midPoint)}`);
+  // console.log(`leftArr sliced at midpoint: ${arr.slice(0, midPoint)}`);
   const leftArr = mergeSort(arr.slice(0, midPoint));
-  console.log(
-    `rightArr sliced at midpoint: ${arr.slice(midPoint, arr.length)}`
-  );
+  // console.log(
+  //   `rightArr sliced at midpoint: ${arr.slice(midPoint, arr.length)}`
+  // );
   const rightArr = mergeSort(arr.slice(midPoint, arr.length));
   return compare(leftArr, rightArr);
 }
 
-mergeSort(arr);
+console.log(mergeSort(arr));
+console.log(mergeSort(arr1));
+console.log(mergeSort(arr2));
+console.log(mergeSort(arr3));
+console.log(mergeSort(arr4));
 
 function compare(a, b) {
   const sortedArr = [];
@@ -66,7 +76,7 @@ function compare(a, b) {
     sortedArr.push(b[j]);
     j++;
   }
-  console.log(`Values compared and placed in sorted order: ${sortedArr}`);
+  // console.log(`Values compared and placed in sorted order: ${sortedArr}`);
   return sortedArr;
 }
 
