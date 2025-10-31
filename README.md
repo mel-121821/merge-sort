@@ -2,7 +2,7 @@
 
 ### Instructions:
 
-- [] Build a function mergeSort that takes in an array and returns a sorted array, using a recursive merge sort methodology.
+- [x] Build a function mergeSort that takes in an array and returns a sorted array, using a recursive merge sort methodology.
 
 ---
 
@@ -28,3 +28,10 @@ It may be helpful to check out the background videos again if you don’t quite 
 
 Splitting an array & splice vs. slice:
 https://stackoverflow.com/questions/9181188/splice-an-array-in-half-no-matter-the-size
+
+---
+
+Solution:
+
+Merge sort and comparison function:
+https://youtu.be/IJDJ0kBx2LM?t=3383
