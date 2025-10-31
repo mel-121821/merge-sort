@@ -31,7 +31,7 @@ https://stackoverflow.com/questions/9181188/splice-an-array-in-half-no-matter-th
 
 ---
 
-Solution:
+#### Solution:
 
 Merge sort and comparison function:
 https://youtu.be/IJDJ0kBx2LM?t=3383
