@@ -81,6 +81,9 @@ It may be helpful to check out the background videos again if you don’t quite 
 Splitting an array & splice vs. slice:
 https://stackoverflow.com/questions/9181188/splice-an-array-in-half-no-matter-the-size
 
+Merge 2 projects on Github:
+https://stackoverflow.com/questions/1425892/how-do-you-merge-two-git-repositories
+
 ---
 
 #### Solution:
