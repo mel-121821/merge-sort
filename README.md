@@ -84,6 +84,9 @@ https://stackoverflow.com/questions/9181188/splice-an-array-in-half-no-matter-th
 Merge 2 projects on Github:
 https://stackoverflow.com/questions/1425892/how-do-you-merge-two-git-repositories
 
+Renaming a repo:
+https://docs.github.com/en/repositories/creating-and-managing-repositories/renaming-a-repository
+
 ---
 
 #### Solution:
